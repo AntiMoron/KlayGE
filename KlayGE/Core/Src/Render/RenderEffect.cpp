@@ -3767,7 +3767,7 @@ namespace KlayGE
 
 			case REDT_rasterizer_ordered_byte_address_buffer:
 				str += "#if KLAYGE_SHADER_MODEL >= SHADER_MODEL(5, 1)\n";
-				str += "RasterizerOrderedByteAddressBuffer<" + elem_type + "> " + param_name + ";\n";
+				str += "RasterizerOrderedByteAddressBuffer " + param_name + ";\n";
 				str += "#endif\n";
 				break;
 

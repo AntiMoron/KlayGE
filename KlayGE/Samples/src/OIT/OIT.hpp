@@ -12,7 +12,8 @@ enum OITMode
 	OM_DepthPeeling,
 	OM_WeightedBlended,
 	OM_PerPixelLinkedLists,
-	OM_AdaptiveTransparency
+	OM_AdaptiveTransparency,
+	OM_RovAdaptiveTransparency
 };
 
 class OITApp : public KlayGE::App3DFramework
